@@ -1,0 +1,11 @@
+## vs-autocompiler
+
+Run autocompiler.ps1 from directory with the project and the .sln file.
+Set $out parameter for where to generate the compiled files:
+
+```
+git clone https://github.com/stephenfewer/ReflectiveDLLInjection
+cd ReflectiveDLLInjection
+C:\Users\me\autocompiler.ps1 -out C:\Users\me\output
+```
+
